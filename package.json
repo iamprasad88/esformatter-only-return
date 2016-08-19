@@ -1,0 +1,24 @@
+{
+  "name": "esformatter-only-return",
+  "version": "1.0.0",
+  "description": "If return is the only statement in the block remove line breaks above it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prasad Thondamuthur Vasanth (http://iamprasad88.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "esformatter": "^0.9.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamprasad88/esformatter-only-return"
+  },
+  "keywords": [
+    "esformatter",
+    "expressions",
+    "expression",
+    "multiline"
+  ]
+}
