@@ -1,15 +1,15 @@
 {
   "name": "esformatter-only-return",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "If return is the only statement in the block remove line breaks above it",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Prasad Thondamuthur Vasanth (http://iamprasad88.github.io)",
+  "author": "Prasad Thondamuthur Vasanth",
   "license": "MIT",
   "dependencies": {
-    "esformatter": "^0.9.6"
+    "rocambole-token": "^1.2.1"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
     "expressions",
     "expression",
     "multiline"
-  ]
+  ],
+  "devDependencies": {
+    "esformatter": "^0.9.6"
+  }
 }
